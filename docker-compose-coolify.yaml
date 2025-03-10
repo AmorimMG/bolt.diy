@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile-coolify
     ports:
-      - "8085:5173"
+      - "8086:5173"
     environment:
       - NODE_ENV=production
       - PORT=5173
